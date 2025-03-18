@@ -1,0 +1,500 @@
+[[redirects]]
+  from = "https://zipteam.co/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteam.co/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteammarketing.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteammarketing.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://makezipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.makezipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteammail.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteammail.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamhq.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamhq.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamtech.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamtech.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamplatform.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamplatform.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamcloud.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamcloud.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamdata.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamdata.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteambase.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteambase.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamhub.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamhub.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamlink.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamlink.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamstream.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamstream.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamapps.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamapps.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamquester.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamquester.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamconnect.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamconnect.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamflow.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamflow.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamnet.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamnet.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteambuild.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteambuild.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamweb.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamweb.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamsuccess.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamsuccess.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamsim.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamsim.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamexplorer.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamexplorer.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamtechnology.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamtechnology.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamexpert.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamexpert.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamsearch.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamsearch.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteammaker.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteammaker.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteambuilder.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteambuilder.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamleader.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamleader.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamcreator.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamcreator.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://createzipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.createzipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamgraph.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamgraph.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamaction.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamaction.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamup.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamup.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamtaxonomy.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamtaxonomy.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteammetrics.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteammetrics.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://drivezipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.drivezipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamanalysis.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamanalysis.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamnavigator.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamnavigator.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamwork.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamwork.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamtools.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamtools.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamskills.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamskills.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://findzipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.findzipteam.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamspace.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamspace.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamunit.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamunit.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamworkforce.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamworkforce.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteaminsight.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteaminsight.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteaminitiative.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteaminitiative.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteaminnovator.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteaminnovator.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://zipteamplanner.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zipteamplanner.com/*"
+  to = "https://www.zipteam.com/:splat"
+  status = 301
+  force = true
