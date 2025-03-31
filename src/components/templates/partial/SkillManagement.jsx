@@ -65,10 +65,12 @@ const SkillManagement = ({ accordionId, contentSection }) => {
                     ))}
                   </div>
                   <BookDemoBtn
-                    data-bs-toggle={"modal"}
-                    data-bs-target={"#contact_modal"}
-                    title={contentSection?.button?.title}
-                    url={contentSection?.button?.url}
+                    {...(contentSection?.leftRightAccordionButtonSelection !== "Link" && {
+                      "data-bs-toggle": "modal",
+                      "data-bs-target": "#contact_modal"
+                    })}
+                    title={contentSection?.leftRightAccordionButtonSelection === "Link" ? contentSection?.button?.title : contentSection?.popup?.title}
+                    url={contentSection?.leftRightAccordionButtonSelection === "Link" ? contentSection?.button?.url : contentSection?.popup?.url}
                   />
                 </div>
               </div>

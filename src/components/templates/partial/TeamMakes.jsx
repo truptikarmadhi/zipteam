@@ -43,10 +43,12 @@ const TeamMakes = ({ contentSection }) => {
                                         <div className='fontXX leadingXS res-fontM res-leadingL tk-degular fw-normal tmb-25 dmb-25' dangerouslySetInnerHTML={{ __html: modifiedHTML }}>
                                         </div>
                                         <BookDemoBtn
-                                            data-bs-toggle={'modal'}
-                                            data-bs-target={"#contact_modal"}
-                                            title={contentSection?.button?.title}
-                                            url={contentSection?.button?.url}
+                                            {...(contentSection?.leftRightButtonSelection !== "Link" && {
+                                                "data-bs-toggle": "modal",
+                                                "data-bs-target": "#contact_modal"
+                                            })}
+                                            title={contentSection?.leftRightButtonSelection === "Link" ? contentSection?.button?.title : contentSection?.popup?.title}
+                                            url={contentSection?.leftRightButtonSelection === "Link" ? contentSection?.button?.url : contentSection?.popup?.url}
                                         />
                                     </div>
                                 </div>
@@ -64,10 +66,12 @@ const TeamMakes = ({ contentSection }) => {
                                         <div className='fontXX leadingXS res-fontM res-leadingL tk-degular fw-normal tmb-25 dmb-25' dangerouslySetInnerHTML={{ __html: modifiedHTML }}>
                                         </div>
                                         <BookDemoBtn
-                                            data-bs-toggle={'modal'}
-                                            data-bs-target={"#contact_modal"}
-                                            title={contentSection?.button?.title}
-                                            url={contentSection?.button?.url}
+                                            {...(contentSection?.leftRightButtonSelection !== "Link" && {
+                                                "data-bs-toggle": "modal",
+                                                "data-bs-target": "#contact_modal"
+                                            })}
+                                            title={contentSection?.leftRightButtonSelection === "Link" ? contentSection?.button?.title : contentSection?.popup?.title}
+                                            url={contentSection?.leftRightButtonSelection === "Link" ? contentSection?.button?.url : contentSection?.popup?.url}
                                         />
                                     </div>
                                 </div>

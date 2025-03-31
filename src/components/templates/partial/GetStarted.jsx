@@ -32,11 +32,13 @@ const GetStarted = ({ contentSection }) => {
                     {removeTags(contentSection?.description)}
                   </h5>
                   <BookDemoBtn
-                    data-bs-toggle={"modal"}
-                    data-bs-target={"#contact_modal"}
+                    {...(contentSection?.readyGetButtonSelection !== "Link" && {
+                      "data-bs-toggle": "modal",
+                      "data-bs-target": "#contact_modal"
+                    })}
                     extraClass="btn-border-white"
-                    title={contentSection?.button?.title}
-                    url={contentSection?.button?.urlz}
+                    title={contentSection?.readyGetButtonSelection === "Link" ? contentSection?.button?.title : contentSection?.popup?.title}
+                    url={contentSection?.readyGetButtonSelection === "Link" ? contentSection?.button?.url : contentSection?.popup?.url}
                   />
                 </div>
                 <div className="col-lg-6 h-100 d-flex align-items-lg-end justify-content-start justify-content-lg-end">

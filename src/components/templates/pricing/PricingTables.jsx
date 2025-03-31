@@ -46,8 +46,12 @@ const PricingTables = ({ contentSection }) => {
                                         ))}
                                     </ul>
                                     <BookDemoBtn
-                                        title={contentSection?.freeTable?.button?.title}
-                                        url={contentSection?.freeTable?.button?.url}
+                                        {...(contentSection?.freeTable?.freeTableButtonSelection !== "Link" && {
+                                            "data-bs-toggle": "modal",
+                                            "data-bs-target": "#contact_modal"
+                                        })}
+                                        title={contentSection?.freeTable?.freeTableButtonSelection === "Link" ? contentSection?.freeTable?.button?.title : contentSection?.freeTable?.popup?.title}
+                                        url={contentSection?.freeTable?.freeTableButtonSelection === "Link" ? contentSection?.freeTable?.button?.url : contentSection?.freeTable?.popup?.url}
                                     />
                                 </div>
                             </div>
@@ -65,10 +69,12 @@ const PricingTables = ({ contentSection }) => {
                                         ))}
                                     </ul>
                                     <BookDemoBtn
-                                        data-bs-toggle={'modal'}
-                                        data-bs-target={"#contact_modal"}
-                                        title={contentSection?.standardTable?.button?.title}
-                                        url={contentSection?.standardTable?.button?.url}
+                                        {...(contentSection?.standardTable?.standardTableButtonSelection !== "Link" && {
+                                            "data-bs-toggle": "modal",
+                                            "data-bs-target": "#contact_modal"
+                                        })}
+                                        title={contentSection?.standardTable?.standardTableButtonSelection === "Link" ? contentSection?.standardTable?.button?.title : contentSection?.standardTable?.popup?.title}
+                                        url={contentSection?.standardTable?.standardTableButtonSelection === "Link" ? contentSection?.standardTable?.button?.url : contentSection?.standardTable?.popup?.url}
                                     />
                                 </div>
                             </div>
@@ -86,11 +92,13 @@ const PricingTables = ({ contentSection }) => {
                                         ))}
                                     </ul>
                                     <BookDemoBtn
-                                        data-bs-toggle={'modal'}
-                                        data-bs-target={"#contact_modal"}
+                                        {...(contentSection?.enterpriseTable?.enterpriceTableButtonSelection !== "Link" && {
+                                            "data-bs-toggle": "modal",
+                                            "data-bs-target": "#contact_modal"
+                                        })}
                                         extraClass="btn-border-white"
-                                        title={contentSection?.enterpriseTable?.button?.title}
-                                        url={contentSection?.enterpriseTable?.button?.url}
+                                        title={contentSection?.enterpriseTable?.enterpriceTableButtonSelection === "Link" ? contentSection?.enterpriseTable?.button?.title : contentSection?.enterpriseTable?.popup?.title}
+                                        url={contentSection?.enterpriseTable?.enterpriceTableButtonSelection === "Link" ? contentSection?.enterpriseTable?.button?.url : contentSection?.enterpriseTable?.popup?.url}
                                     />
                                 </div>
                             </div>

@@ -33,6 +33,11 @@ export const usePageBuilder = () => {
                   title
                   url
                 }
+                popup {
+                  title
+                  url
+                }
+                heroButtonSelection
                 image {
                   localFile {
                     childImageSharp {
@@ -144,6 +149,11 @@ export const usePageBuilder = () => {
                   title
                   url
                 }
+                popup {
+                  title
+                  url
+                }
+                leftRightButtonSelection
                 image {
                   localFile {
                     childImageSharp {
@@ -172,6 +182,11 @@ export const usePageBuilder = () => {
                   title
                   url
                 }
+                popup {
+                  title
+                  url
+                }
+                leftRightAccordionButtonSelection
               }
               ... on WpPage_AcfBuilderpage_ContentSection_SolutionsForStartups {
                 fieldGroupName
@@ -203,6 +218,11 @@ export const usePageBuilder = () => {
                   title
                   url
                 }
+                popup {
+                  title
+                  url
+                }
+                readyGetButtonSelection
                 image {
                   localFile {
                     childImageSharp {
@@ -219,6 +239,11 @@ export const usePageBuilder = () => {
                   title
                   url
                 }
+                popup {
+                  title
+                  url
+                }
+                collectButtonSelection
                 image {
                   localFile {
                     childImageSharp {
@@ -275,6 +300,11 @@ export const usePageBuilder = () => {
                     title
                     url
                   }
+                  popup {
+                    title
+                    url
+                  }
+                  freeTableButtonSelection
                 }
                 standardTable {
                   heading
@@ -287,6 +317,11 @@ export const usePageBuilder = () => {
                     title
                     url
                   }
+                  popup {
+                    title
+                    url
+                  }
+                  standardTableButtonSelection
                 }
                 enterpriseTable {
                   heading
@@ -299,6 +334,11 @@ export const usePageBuilder = () => {
                     title
                     url
                   }
+                  popup {
+                    title
+                    url
+                  }
+                  enterpriceTableButtonSelection
                 }
               }
               ... on WpPage_AcfBuilderpage_ContentSection_TabSection {

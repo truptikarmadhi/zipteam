@@ -144,13 +144,9 @@ const Svg = ({ menuIcon, ButtonArrow, ButtonWhiteArrow, rightArrow, rightWhiteAr
                 </svg>
             }
             {SwiperPrevArrow &&
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                    <g id="Group_3759" data-name="Group 3759" transform="translate(-600.792 -1613.792)">
-                        <circle id="Ellipse_408" data-name="Ellipse 408" cx="15" cy="15" r="15" transform="translate(630.792 1613.792) rotate(90)" fill="transparent" stroke="#D5D5D5" strokeWidth="1"  />
-                        <g id="Group_3514" data-name="Group 3514" transform="translate(623.05 1625.75) rotate(90)">
-                            <path id="Path_10" data-name="Path 10" d="M.843,14.832a.843.843,0,0,1-.532-1.5L7.355,7.612a.271.271,0,0,0,.12-.2.275.275,0,0,0-.12-.2L.311,1.5A.843.843,0,0,1,1.374.189L8.418,5.912a1.9,1.9,0,0,1,0,3.009L1.374,14.644a.837.837,0,0,1-.531.188" transform="translate(0 0)" fill="#426af0" />
-                        </g>
-                    </g>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" version="1.1" viewBox="0 0 41 41">
+                    <path id="Ellipse_408" class="st1" d="M20.5,1C9.7,1,1,9.7,1,20.5c0,7.8,4.7,14.9,11.9,18,9.9,4.2,21.4-.5,25.6-10.4,4.2-9.9-.5-21.4-10.4-25.6-2.4-1-5-1.5-7.6-1.5M20.5,0c11.3,0,20.5,9.2,20.5,20.5s-9.2,20.5-20.5,20.5S0,31.8,0,20.5,9.2,0,20.5,0Z" />
+                    <path id="Path_10" class="st0" d="M18,28.1c-.5,0-.9-.4-.9-.9,0-.3.1-.5.3-.7l7.2-5.8c0,0,.1-.1.1-.2,0,0,0-.2-.1-.2l-7.2-5.8c-.4-.3-.4-.8-.1-1.2.3-.4.8-.4,1.2-.1h0s7.2,5.8,7.2,5.8c.8.6,1,1.9.4,2.7-.1.1-.2.3-.4.4l-7.2,5.8c-.2.1-.3.2-.5.2" />
                 </svg>
             }
         </>

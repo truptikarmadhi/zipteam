@@ -23,15 +23,17 @@ const CollectionData = ({ contentSection }) => {
                                         {removeTags(contentSection?.description)}
                                     </h5>
                                     <BookDemoBtn
-                                        data-bs-toggle={'modal'}
-                                        data-bs-target={"#contact_modal"}
+                                        {...(contentSection?.collectButtonSelection !== "Link" && {
+                                            "data-bs-toggle": "modal",
+                                            "data-bs-target": "#contact_modal"
+                                        })}
                                         extraClass="btn-border-white"
-                                        title={contentSection?.button?.title}
-                                        url={contentSection?.button?.url}
+                                        title={contentSection?.collectButtonSelection === "Link" ? contentSection?.button?.title : contentSection?.popup?.title}
+                                        url={contentSection?.collectButtonSelection === "Link" ? contentSection?.button?.url : contentSection?.popup?.url}
                                     />
                                 </div>
                                 <div className="col-lg-7 h-100 d-flex align-items-lg-end justify-content-start justify-content-lg-end">
-                                    <GatsbyImage image={getImage(contentSection?.image?.localFile)} alt="" className='collect-img w-100 h-100 object-cover drop-shadow'  imgStyle={{ quality: 100 }}  />
+                                    <GatsbyImage image={getImage(contentSection?.image?.localFile)} alt="" className='collect-img w-100 h-100 object-cover drop-shadow' imgStyle={{ quality: 100 }} />
                                 </div>
                             </div>
                         </div>

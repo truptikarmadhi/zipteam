@@ -3,11 +3,13 @@
     .swiper-wrapper {
       .swiper-slide {
         opacity: 0 !important;
+
         &.swiper-slide-active {
           opacity: 1 !important;
         }
       }
     }
+
     .swiper-pagination {
       text-align: -webkit-auto !important;
       bottom: 0px !important;
@@ -48,17 +50,29 @@
       svg {
         width: 100%;
         height: 100%;
+
+        .st0 {
+          fill: #426af0;
+        }
+
+        .st1 {
+          fill: #707070;
+          isolation: isolate;
+          opacity: .7;
+        }
+      
       }
     }
 
     .image-swiper-button-prev {
       svg {
-        transform: rotate(90deg);
+        transform: rotate(180deg);
       }
     }
+
     .image-swiper-button-next {
       svg {
-        transform: rotate(-90deg);
+        transform: rotate(0deg);
       }
     }
   }

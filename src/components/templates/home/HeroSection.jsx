@@ -11,6 +11,8 @@ const HeroSection = ({ contentSection }) => {
         Aos.refresh();
     }, []);
 
+    console.log(contentSection, 'contentSection')
+
     return (
         <>
             <div className='spacing tpt-220 dpt-170'></div>
@@ -23,10 +25,12 @@ const HeroSection = ({ contentSection }) => {
                                 <h5 className='fontXX leadingXX tk-degular fw-normal res-fw-medium dmb-35'>{removeTags(contentSection?.description)}</h5>
                                 <div>
                                     <BookDemoBtn
-                                        data-bs-toggle={'modal'}
-                                        data-bs-target={"#contact_modal"}
-                                        title={contentSection?.button?.title}
-                                        url={contentSection?.button?.url}
+                                        {...(contentSection?.heroButtonSelection !== "Link" && {
+                                            "data-bs-toggle": "modal",
+                                            "data-bs-target": "#contact_modal"
+                                        })}
+                                        title={contentSection?.heroButtonSelection === "Link" ? contentSection?.button?.title : contentSection?.popup?.title}
+                                        url={contentSection?.heroButtonSelection === "Link" ? contentSection?.button?.url : contentSection?.popup?.url}
                                     />
                                 </div>
                             </div>
